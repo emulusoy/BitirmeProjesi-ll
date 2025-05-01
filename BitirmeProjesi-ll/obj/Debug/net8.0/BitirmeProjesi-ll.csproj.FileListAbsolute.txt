@@ -229,3 +229,4 @@ C:\Users\eMu\source\repos\BitirmeProjesi-ll\BitirmeProjesi-ll\obj\Debug\net8.0\r
 C:\Users\eMu\source\repos\BitirmeProjesi-ll\BitirmeProjesi-ll\obj\Debug\net8.0\BitirmeProjesi-ll.pdb
 C:\Users\eMu\source\repos\BitirmeProjesi-ll\BitirmeProjesi-ll\obj\Debug\net8.0\BitirmeProjesi-ll.genruntimeconfig.cache
 C:\Users\eMu\source\repos\BitirmeProjesi-ll\BitirmeProjesi-ll\obj\Debug\net8.0\ref\BitirmeProjesi-ll.dll
+C:\Users\eMu\source\repos\BitirmeProjesi-ll\BitirmeProjesi-ll\obj\Debug\net8.0\BitirmeProjesi-ll.sourcelink.json

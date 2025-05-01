@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{12AA2E6A-CEF8-4C7C-B436-2B61E0B617C1}|BitirmeProjesi-ll\\BitirmeProjesi-ll.csproj|c:\\users\\emu\\source\\repos\\bitirmeprojesi-ll\\bitirmeprojesi-ll\\entities\\harcamalar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12AA2E6A-CEF8-4C7C-B436-2B61E0B617C1}|BitirmeProjesi-ll\\BitirmeProjesi-ll.csproj|solutionrelative:bitirmeprojesi-ll\\entities\\harcamalar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{12AA2E6A-CEF8-4C7C-B436-2B61E0B617C1}|BitirmeProjesi-ll\\BitirmeProjesi-ll.csproj|c:\\users\\emu\\source\\repos\\bitirmeprojesi-ll\\bitirmeprojesi-ll\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{12AA2E6A-CEF8-4C7C-B436-2B61E0B617C1}|BitirmeProjesi-ll\\BitirmeProjesi-ll.csproj|solutionrelative:bitirmeprojesi-ll\\views\\default\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12AA2E6A-CEF8-4C7C-B436-2B61E0B617C1}|BitirmeProjesi-ll\\BitirmeProjesi-ll.csproj|c:\\users\\emu\\source\\repos\\bitirmeprojesi-ll\\bitirmeprojesi-ll\\entities\\borc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12AA2E6A-CEF8-4C7C-B436-2B61E0B617C1}|BitirmeProjesi-ll\\BitirmeProjesi-ll.csproj|solutionrelative:bitirmeprojesi-ll\\entities\\borc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12AA2E6A-CEF8-4C7C-B436-2B61E0B617C1}|BitirmeProjesi-ll\\BitirmeProjesi-ll.csproj|c:\\users\\emu\\source\\repos\\bitirmeprojesi-ll\\bitirmeprojesi-ll\\entities\\fatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12AA2E6A-CEF8-4C7C-B436-2B61E0B617C1}|BitirmeProjesi-ll\\BitirmeProjesi-ll.csproj|solutionrelative:bitirmeprojesi-ll\\entities\\fatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Borc.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\BitirmeProjesi-ll\\Entities\\Borc.cs",
+              "RelativeDocumentMoniker": "BitirmeProjesi-ll\\Entities\\Borc.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\BitirmeProjesi-ll\\Entities\\Borc.cs",
+              "RelativeToolTip": "BitirmeProjesi-ll\\Entities\\Borc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:29:35.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Fatura.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\BitirmeProjesi-ll\\Entities\\Fatura.cs",
+              "RelativeDocumentMoniker": "BitirmeProjesi-ll\\Entities\\Fatura.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\BitirmeProjesi-ll\\Entities\\Fatura.cs",
+              "RelativeToolTip": "BitirmeProjesi-ll\\Entities\\Fatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:28:42.867Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Harcamalar.cs",
+              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\BitirmeProjesi-ll\\Entities\\Harcamalar.cs",
+              "RelativeDocumentMoniker": "BitirmeProjesi-ll\\Entities\\Harcamalar.cs",
+              "ToolTip": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\BitirmeProjesi-ll\\Entities\\Harcamalar.cs",
+              "RelativeToolTip": "BitirmeProjesi-ll\\Entities\\Harcamalar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T16:27:57.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\BitirmeProjesi-ll\\Views\\Default\\Index.cshtml",
               "RelativeDocumentMoniker": "BitirmeProjesi-ll\\Views\\Default\\Index.cshtml",
               "ToolTip": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\BitirmeProjesi-ll\\Views\\Default\\Index.cshtml",
               "RelativeToolTip": "BitirmeProjesi-ll\\Views\\Default\\Index.cshtml",
-              "ViewState": "AgIAAOoAAAAAAAAAAAAAAGABAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-07T20:27:36.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T20:27:36.473Z"
             }
           ]
         }
