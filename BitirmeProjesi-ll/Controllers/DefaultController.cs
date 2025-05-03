@@ -6,6 +6,8 @@ namespace BitirmeProjesi_ll.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.ActivePage = "Anasayfa";
+
             return View();
         }
     }

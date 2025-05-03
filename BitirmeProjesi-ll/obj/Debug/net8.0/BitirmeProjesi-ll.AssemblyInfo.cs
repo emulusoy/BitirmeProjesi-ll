@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BitirmeProjesi-ll")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+32835e50f2471c994d76eac31e3e777883148609")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26de7e5cc936236405d72ab2c9e967ace5e9b2d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("BitirmeProjesi-ll")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BitirmeProjesi-ll")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
