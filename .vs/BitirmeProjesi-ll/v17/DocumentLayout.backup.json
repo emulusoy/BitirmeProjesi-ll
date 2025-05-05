@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{12AA2E6A-CEF8-4C7C-B436-2B61E0B617C1}|BitirmeProjesi-ll\\BitirmeProjesi-ll.csproj|c:\\users\\emu\\source\\repos\\bitirmeprojesi-ll\\bitirmeprojesi-ll\\views\\layout\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{12AA2E6A-CEF8-4C7C-B436-2B61E0B617C1}|BitirmeProjesi-ll\\BitirmeProjesi-ll.csproj|solutionrelative:bitirmeprojesi-ll\\views\\layout\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12AA2E6A-CEF8-4C7C-B436-2B61E0B617C1}|BitirmeProjesi-ll\\BitirmeProjesi-ll.csproj|c:\\users\\emu\\source\\repos\\bitirmeprojesi-ll\\bitirmeprojesi-ll\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{12AA2E6A-CEF8-4C7C-B436-2B61E0B617C1}|BitirmeProjesi-ll\\BitirmeProjesi-ll.csproj|solutionrelative:bitirmeprojesi-ll\\views\\payment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\BitirmeProjesi-ll\\Views\\Payment\\Index.cshtml",
-              "RelativeDocumentMoniker": "BitirmeProjesi-ll\\Views\\Payment\\Index.cshtml",
-              "ToolTip": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\BitirmeProjesi-ll\\Views\\Payment\\Index.cshtml",
-              "RelativeToolTip": "BitirmeProjesi-ll\\Views\\Payment\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T13:12:17.086Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -45,9 +28,9 @@
               "RelativeDocumentMoniker": "BitirmeProjesi-ll\\Views\\Layout\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\BitirmeProjesi-ll\\Views\\Layout\\_Layout.cshtml",
               "RelativeToolTip": "BitirmeProjesi-ll\\Views\\Layout\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAFMAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T13:10:22.582Z",
+              "WhenOpened": "2025-05-05T14:38:01.036Z",
               "EditorCaption": ""
             },
             {
@@ -58,9 +41,9 @@
               "RelativeDocumentMoniker": "BitirmeProjesi-ll\\Views\\Default\\Index.cshtml",
               "ToolTip": "C:\\Users\\eMu\\source\\repos\\BitirmeProjesi-ll\\BitirmeProjesi-ll\\Views\\Default\\Index.cshtml",
               "RelativeToolTip": "BitirmeProjesi-ll\\Views\\Default\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T13:10:04.154Z",
+              "WhenOpened": "2025-05-05T14:37:20.205Z",
               "EditorCaption": ""
             }
           ]

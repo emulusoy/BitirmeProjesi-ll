@@ -3,92 +3,64 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Layout/_Layout.cshtml";
 }
-
 <div class="bg-gray-800 pt-3">
     <div class="rounded-tl-3xl bg-gradient-to-r from-blue-900 to-gray-800 p-4 shadow text-2xl text-white">
         <h1 class="font-bold pl-2">Harcamalar</h1>
     </div>
 </div>
 
-<div class="container mt-5">
-    <h1 class="mb-4">Harcamalar</h1>
+<div class="flex flex-wrap p-4">
+    <div class="w-full overflow-x-auto">
+        <table class="table-fixed w-full border-collapse border border-gray-400 text-left">
+            <thead class="bg-gray-200">
+                <tr>
+                    <th class="border border-gray-300 px-4 py-2">ID</th>
+                    <th class="border border-gray-300 px-4 py-2">Başlık</th>
+                    <th class="border border-gray-300 px-4 py-2">Açıklama</th>
+                    <th class="border border-gray-300 px-4 py-2">Fiyat</th>
+                    <th class="border border-gray-300 px-4 py-2">Tarih</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="hover:bg-gray-100">
+                        <td class="border border-gray-300 px-4 py-2 truncate">@item.HarcamalarId</td>
+                        <td class="border border-gray-300 px-4 py-2 truncate">@item.Title</td>
+                        <td class="border border-gray-300 px-4 py-2 truncate">@item.Description</td>
+                        <td class="border border-gray-300 px-4 py-2 truncate">@item.Price</td>
+                        <td class="border border-gray-300 px-4 py-2 truncate">@item.Date.ToShortDateString()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
 
-    <div class="card shadow">
-        <div class="card-header bg-primary text-white">
-            <h5 class="mb-0">Harcama Listesi (Toplam @ViewBag.TotalItems kayıt)</h5>
-        </div>
+        <!-- Sayfalama (Pagination) -->
+        <div class="mt-6 flex justify-center">
+            <nav class="inline-flex rounded-md shadow-sm -space-x-px" aria-label="Pagination">
+                @if ((int)ViewBag.CurrentPage > 1)
+                {
+                    <a href="?page=@((int)ViewBag.CurrentPage - 1)" class="bg-white border border-gray-300 px-3 py-2 text-gray-500 hover:bg-gray-100">‹</a>
+                }
 
-        <div class="card-body">
-            <div class="table-responsive">
-                <table class="table table-striped table-hover">
-                    <thead class="thead-dark">
-                        <tr>
-                            <th>Başlık</th>
-                            <th>Açıklama</th>
-                            <th>Tutar</th>
-                            <th>Tarih</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var harcama in Model)
-                        {
-                            <tr>
-                                <td>@harcama.Title</td>
-                                <td>@harcama.Description</td>
-                                <td>@harcama.Price</td>
-                                <td>@harcama.Date.ToString("dd.MM.yyyy")</td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
-            </div>
-
-            <!-- Pagination -->
-            <nav aria-label="Page navigation">
-                <ul class="pagination justify-content-center">
-                    @if (ViewBag.CurrentPage > 1)
+                @for (int i = 1; i <= (int)ViewBag.TotalPages; i++)
+                {
+                    if (i == ViewBag.CurrentPage)
                     {
-                        <li class="page-item">
-                            <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.CurrentPage - 1 })">Önceki</a>
-                        </li>
+                        <span class="bg-blue-500 text-white px-4 py-2 border border-gray-300">@i</span>
                     }
-
-                    @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                    else
                     {
-                        <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
-                            <a class="page-link" href="@Url.Action("Index", new { page = i })">@i</a>
-                        </li>
+                        <a href="?page=@i" class="bg-white text-gray-700 hover:bg-gray-100 px-4 py-2 border border-gray-300">@i</a>
                     }
+                }
 
-                    @if (ViewBag.CurrentPage < ViewBag.TotalPages)
-                    {
-                        <li class="page-item">
-                            <a class="page-link" href="@Url.Action("Index", new { page = ViewBag.CurrentPage + 1 })">Sonraki</a>
-                        </li>
-                    }
-                </ul>
+                @if ((int)ViewBag.CurrentPage < (int)ViewBag.TotalPages)
+                {
+                    <a href="?page=@((int)ViewBag.CurrentPage + 1)" class="bg-white border border-gray-300 px-3 py-2 text-gray-500 hover:bg-gray-100">›</a>
+                }
             </nav>
-
-            <div class="text-center text-muted">
-                Sayfa @ViewBag.CurrentPage / @ViewBag.TotalPages (Toplam @ViewBag.TotalItems kayıt)
-            </div>
         </div>
     </div>
 </div>
-
-<style>
-    .table th {
-        background-color: #343a40;
-        color: white;
-    }
-
-    .pagination .page-item.active .page-link {
-        background-color: #007bff;
-        border-color: #007bff;
-    }
-
-    .pagination .page-link {
-        color: #007bff;
-    }
-</style>
 
