@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Derleme çıktıları
+bin/
+obj/
+
+# Geçici dosyalar
+*.log
+*.tmp
+
+# Mac için
+.DS_Store
+
+# .env gibi özel ayarlar
+.env

@@ -12,5 +12,7 @@ namespace BitirmeProjesi_ll.Context
 
         }
         public DbSet<Harcamalar> Harcamalars { get; set; }
+        public DbSet<Borc> Borclar { get; set; }
+        public DbSet<Fatura> Faturalar { get; set; }
     }
 }

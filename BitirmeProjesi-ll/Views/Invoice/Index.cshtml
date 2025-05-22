@@ -1,0 +1,56 @@
+﻿@model List<Fatura>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Layout/_Layout.cshtml";
+}
+
+
+<div class="bg-gray-800 pt-3">
+    <div class="rounded-tl-3xl bg-gradient-to-r from-blue-900 to-gray-800 p-4 shadow text-2xl text-white">
+        <h1 class="font-bold pl-2">Faturalar</h1>
+    </div>
+
+</div>
+
+<div class="flex flex-wrap p-4">
+    <div class="w-full overflow-x-auto">
+        <table class="table-fixed w-full border-collapse border border-gray-400 text-left">
+            <thead class="bg-gray-200">
+                <tr>
+                    <th class="border border-gray-300 px-4 py-2">Başlık</th>
+                    <th class="border border-gray-300 px-4 py-2">Açıklama</th>
+                    <th class="border border-gray-300 px-4 py-2">Fiyat</th>
+                    <th class="border border-gray-300 px-4 py-2">Durum</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="hover:bg-gray-100">
+                        <td class="border border-gray-300 px-4 py-2 truncate">@item.Title</td>
+                        <td class="border border-gray-300 px-4 py-2 truncate">@item.Description</td>
+                        <td class="border border-gray-300 px-4 py-2 truncate">@item.Price</td>
+                        <td class="border border-gray-300 px-4 py-2 truncate">
+                            @if (item.Status)
+                            {
+                                <span class="bg-green-500 text-white px-3 py-1 rounded">Ödendi</span>
+                            }
+                            else
+                            {
+                                <a href="/Invoice/PayInvoice?id=@item.FaturaId" class="bg-red-500 hover:bg-red-600 text-white px-3 py-1 rounded">Fatura Öde</a>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+
+    </div>
+    <br />
+    <a class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded" href="/Invoice/CreateInvoice">Fatura Ekle</a>
+</div>
+
+
+
+
